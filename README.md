@@ -12,8 +12,6 @@
 * [Страница 404](https://fervent-darwin-f04ea6.netlify.app/page-not-found.html)
 * [Страница 5хх](https://fervent-darwin-f04ea6.netlify.app/server-error.html)
 
-Посмотреть проект можно по [ссылке](https://fervent-darwin-f04ea6.netlify.app/).
-
 Проект можно развернуть локально из его корневой папки с помощью команды:
 
 ```bash
