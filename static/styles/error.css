@@ -1,0 +1,32 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error__logo::before {
+  font-size: 100px;
+  content: '💬';
+}
+
+.error__code {
+  font-size: 110px;
+  margin: 10px 0;
+}
+
+.error__text {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.error__footer {
+  color: #696565;
+  margin-top: 10px;
+}
+
+.error__footer a,
+.error__footer a:visited {
+  text-decoration: none;
+  color: #000000;
+}

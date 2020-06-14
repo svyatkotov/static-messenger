@@ -1,0 +1,10 @@
+.message-screen {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 600px;
+  padding: 20px 50px;
+  margin-left: 40px;
+  background-color: #ebe993;
+  border-radius: 10px;
+}

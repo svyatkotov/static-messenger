@@ -1,0 +1,35 @@
+.message {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eca265;
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}
+
+.message__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.message__author {
+  font-weight: bold;
+}
+
+.message__time {
+  font-size: 14px;
+  color: #696969;
+}
+
+.message__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
