@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Messenger</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/body.css"/>
+  <link rel="stylesheet" href="styles/app.css"/>
+  <link rel="stylesheet" href="styles/form.css"/>
+</head>
+<body>
+	<div class="app">
+    <div class="form">
+      <h1 class="form__header">Настройки пользователя</h1>
+      <div class="form__avatar"></div>
+      <button class="form__avatar-change">Поменять аватар</button>
+      <form>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="text" name="login" id="login" placeholder="Логин" required>
+        <input type="text" name="username" id="username" placeholder="Имя" required>
+        <input type="password" name="password" id="password" placeholder="Новый пароль" required>
+        <input type="password" name="password-again" id="password-again" placeholder="Повторите пароль" required>
+        <input type="submit" value="Применить настройки">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

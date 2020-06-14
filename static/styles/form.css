@@ -1,0 +1,61 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebe993;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.form__logo::before {
+  font-size: 60px;
+  content: '💬';
+}
+
+.form__header {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.form__link {
+  margin-top: 10px;
+}
+
+.form__link a,
+.form__link a:visited {
+  text-decoration: none;
+  color: #696565;
+}
+
+.form__avatar::before {
+  font-size: 80px;
+  content: '🧑🏽';
+}
+
+.form__avatar-change {
+  margin: 10px 0;
+  color: #000000;
+  border: none;
+  background-color: transparent;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.form input {
+  box-sizing: border-box;
+  margin: 10px 0;
+  height: 40px;
+  border: none;
+  padding: 5px;
+}
+
+.form input[type="submit"] {
+  color: #000000;
+  background-color: #eca265;
+}
